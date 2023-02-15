@@ -2,7 +2,7 @@ package com.douzone.jblog.vo;
 
 import javax.validation.constraints.NotEmpty;
 
-import org.hibernate.validator.constraints.Length;
+import javax.validation.constraints.Length;
 
 public class UserVo {
 	
