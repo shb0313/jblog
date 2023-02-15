@@ -21,19 +21,13 @@
 			
 			<label class="block-label" for="blog-id">아이디</label> 
 			<input id="blog-id" name="id" type="text">
-			<p style="color:#f00; text-align:left; padding:0">
-				<form:errors path="id" />
-			</p>
 			
 			<input id="btn-checkemail" type="button" value="id 중복체크"> <img
 				id="img-checkemail" style="display: none;"
 				src="${pageContext.request.contextPath}/assets/images/check.png">
 
-			<label class="block-label" for="password">패스워드</label> <input
-				id="password" name="password" type="password" />
-			<p style="color: #f00; text-align: left; padding: 0">
-				<form:errors path="password" />
-			</p>
+			<label class="block-label" for="password">패스워드</label> 
+			<input id="password" name="password" type="password" />
 
 			<fieldset>
 				<legend>약관동의</legend>

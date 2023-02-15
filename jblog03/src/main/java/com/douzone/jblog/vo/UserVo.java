@@ -1,23 +1,11 @@
 package com.douzone.jblog.vo;
 
-import javax.validation.constraints.NotEmpty;
-
-import javax.validation.constraints.Length;
-
 public class UserVo {
 	
-	@NotEmpty
-	@Length(min=2, max=8)
 	private String id;
-	
-	private String name;
-	
-	@NotEmpty
-	@Length(min = 4, max = 16)
+	private String name;	
 	private String password;
-	
 	private String joinDate;
-	
 	
 	public String getId() {
 		return id;
