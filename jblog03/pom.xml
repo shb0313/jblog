@@ -110,16 +110,6 @@
 			<version>2.2</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.douzone</groupId>
-			<artifactId>mysite03</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.douwone</groupId>
-			<artifactId>springboot-ex</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 	
 	<build>
