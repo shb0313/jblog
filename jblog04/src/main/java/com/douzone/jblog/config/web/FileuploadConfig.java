@@ -2,6 +2,7 @@ package com.douzone.jblog.config.web;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
@@ -18,7 +19,7 @@ public class FileuploadConfig implements WebMvcConfigurer {
 	private Environment env;
 	
 	// Multipart Resolver
-	
+	@Bean
 	public MultipartResolver multipartResolver() {
 		
 		CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();

@@ -6,11 +6,12 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Import;
 
 import com.douzone.jblog.config.app.DBConfig;
+import com.douzone.jblog.config.app.MyBatisConfig;
 
 @Configuration
 @EnableAspectJAutoProxy
 @ComponentScan({"com.douzone.jblog.service, com.douzone.jblog.repository, com.douzone.jblog.exception, com.douzone.jblog.aspect"})
-@Import({DBConfig.class})
+@Import({DBConfig.class, MyBatisConfig.class})
 public class AppConfig {
 
 }
