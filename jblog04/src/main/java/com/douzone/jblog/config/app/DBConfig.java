@@ -30,3 +30,10 @@ public class DBConfig {
 		return dataSource;
 	}
 }
+
+/* 
+ * Environment : Xml 파일의 객체를 불러올 때 사용
+ *		
+ * jdbc.properties : DB 정보를 Xml 파일에 저장해 불러옴으로 필요 시마다 참조, 변경 시 Xml 파일만 변경
+ */
+
