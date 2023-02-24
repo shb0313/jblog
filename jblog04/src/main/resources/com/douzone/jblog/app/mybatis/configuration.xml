@@ -19,6 +19,5 @@
 		<mapper resource="com/douzone/jblog/app/mybatis/mappers/blog.xml" />
 		<mapper resource="com/douzone/jblog/app/mybatis/mappers/category.xml" />
 		<mapper resource="com/douzone/jblog/app/mybatis/mappers/post.xml" />
-		
 	</mappers>
 </configuration>

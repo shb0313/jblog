@@ -15,3 +15,16 @@ import com.douzone.jblog.config.app.MyBatisConfig;
 public class AppConfig {
 
 }
+
+/*
+ * applicationContext.xml 부분
+
+ * @Configuration
+
+ * @EnableAspectJAutoProxy
+ 
+ * @ComponentScan
+ 
+ * @Import
+	
+*/
